@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 h-full w-full bg-[linear-gradient(to_right,#40371c_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_50%_60%_at_50%_50%,#000_70%,transparent_100%)]">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 h-full w-full bg-[linear-gradient(to_right,#40371c_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_80%_at_50%_70%,#000_70%,transparent_100%)]">
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full">
         <Image
           className="relative select-none dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
@@ -72,11 +72,11 @@ export default function Home() {
         <div className="fixed bottom-0 left-0 mb-4 flex h-12 w-full items-end justify-center p-4">
           <a
             className="flex place-items-center gap-1 px-4 py-2 hover:text-lime-400 transition-colors duration-300"
-            href="https://github.com/TowardsIkhlaas/simply_qibla"
+            href="https://towardsikhlaas.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            Towards_Ikhlaas
           </a>
           <a
             className="flex place-items-center gap-1 px-4 py-2 hover:text-amber-400 transition-colors duration-300"
@@ -96,19 +96,19 @@ export default function Home() {
           </a>
           <a
             className="flex place-items-center gap-2 px-4 py-2 hover:text-red-400 transition-colors duration-300"
-            href="https://simplyqibla.towardsikhlaas.com/privacy"
+            href="https://forms.gle/n8BQxhd8f74dphD49"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Privacy
+            Support
           </a>
           <a
-            className="flex place-items-center gap-2 px-4 py-2 hover:text-purple-400 transition-colors duration-300"
-            href="https://simplyqibla.towardsikhlaas.com/terms"
+            className="flex place-items-center gap-2 px-4 py-2 hover:text-pink-500 transition-colors duration-300"
+            href="https://www.instagram.com/i.khlaas"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Terms
+            IG
           </a>
         </div>
       </div>
