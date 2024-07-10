@@ -20,7 +20,7 @@ export default function Home() {
 
       <div className="mb-32 grid text-center overflow-hidden lg:max-w-5xl lg:w-full lg:mb-16 lg:grid-cols-3 lg:text-left justify-items-center items-center">
         <a
-          href="https://play.google.com/store/apps/details?id=com.towardsikhlaas.SimplyQibla"
+          href="https://play.google.com/store/apps/details?id=com.towardsikhlaas.simplyqibla"
           className="group relative rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-100 hover:bg-cover hover:bg-center relative overflow-hidden"
         >
           <div className="absolute inset-0 bg-none group-hover:bg-[url('https://simplyqibla.towardsikhlaas.com/play.jpg')] group-hover:bg-cover group-hover:bg-center transition-all duration-300"></div>
@@ -76,7 +76,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Towards_Ikhlaas
+            TowardsIkhlaas
           </a>
           <a
             className="flex place-items-center gap-1 px-4 py-2 hover:text-amber-400 transition-colors duration-300"
