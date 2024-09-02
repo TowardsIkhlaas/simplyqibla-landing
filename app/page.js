@@ -90,7 +90,6 @@ export default function Home() {
             className="flex place-items-center gap-1 px-4 py-2 hover:text-lime-400 transition-colors duration-300"
             href="https://towardsikhlaas.com"
             target="_blank"
-            rel="noopener noreferrer"
           >
             TowardsIkhlaas
           </a>
@@ -98,7 +97,6 @@ export default function Home() {
             className="flex place-items-center gap-1 px-4 py-2 hover:text-amber-400 transition-colors duration-300"
             href="https://forms.gle/KGkR4JpjZYmysNwD6"
             target="_blank"
-            rel="noopener noreferrer"
           >
             Collaborate
           </a>
@@ -106,7 +104,6 @@ export default function Home() {
             className="flex place-items-center gap-2 px-4 py-2 hover:text-cyan-400 transition-colors duration-300"
             href="https://ko-fi.com/TowardsIkhlaas"
             target="_blank"
-            rel="noopener noreferrer"
           >
             Ko-Fi
           </a>
@@ -114,15 +111,13 @@ export default function Home() {
             className="flex place-items-center gap-2 px-4 py-2 hover:text-red-400 transition-colors duration-300"
             href="https://forms.gle/n8BQxhd8f74dphD49"
             target="_blank"
-            rel="noopener noreferrer"
           >
             Support
           </a>
           <a
             className="flex place-items-center gap-2 px-4 py-2 hover:text-pink-500 transition-colors duration-300"
-            href="https://www.instagram.com/i.khlaas"
+            href="https://www.instagram.com/towardsikhlaas"
             target="_blank"
-            rel="noopener noreferrer"
           >
             IG
           </a>
