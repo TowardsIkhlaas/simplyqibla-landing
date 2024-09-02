@@ -2,12 +2,25 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 h-full w-full bg-[linear-gradient(to_right,#40371c_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_80%_at_50%_70%,#000_70%,transparent_100%)]">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 h-full w-full bg-[linear-gradient(to_right,#1c150e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_80%_at_50%_70%,#000_70%,transparent_100%)]">
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full">
         <Image
+          draggable="false"
           className="relative select-none dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
-          src="https://simplyqibla.towardsikhlaas.com/sq-landing-logo.svg"
+          src="/sq-landing-logo.svg"
           alt="SimplyQibla Logo"
+          width={1000}
+          height={33}
+          priority
+        />
+      </div>
+
+      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full">
+        <Image
+          draggable="false"
+          className="relative select-none dark:drop-shadow-[0_0_0.3rem_#ffffff70] w-[100px] md:w-[200px] lg:w-[200px]"
+          src="/sq-icon.webp"
+          alt="SimplyQibla Icon"
           width={1000}
           height={33}
           priority
@@ -20,10 +33,11 @@ export default function Home() {
 
       <div className="mb-32 grid text-center overflow-hidden lg:max-w-5xl lg:w-full lg:mb-16 lg:grid-cols-3 lg:text-left justify-items-center items-center">
         <a
+          target="_blank"
           href="https://play.google.com/store/apps/details?id=com.towardsikhlaas.simplyqibla"
           className="group relative rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-100 hover:bg-cover hover:bg-center relative overflow-hidden"
         >
-          <div className="absolute inset-0 bg-none group-hover:bg-[url('https://simplyqibla.towardsikhlaas.com/play.jpg')] group-hover:bg-cover group-hover:bg-center transition-all duration-300"></div>
+          <div className="absolute inset-0 bg-none group-hover:bg-[url('/play.webp')] group-hover:bg-cover group-hover:bg-center transition-all duration-300"></div>
           <h2 className={`mb-3 text-2xl font-semibold relative z-10`}>
             Play Store{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -36,10 +50,11 @@ export default function Home() {
         </a>
 
         <a
+          target="_blank"
           href="https://apps.apple.com/app/id6504881956"
           className="group relative rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-100 hover:bg-cover hover:bg-center relative overflow-hidden"
         >
-          <div className="absolute inset-0 bg-none group-hover:bg-[url('https://simplyqibla.towardsikhlaas.com/apple.jpg')] group-hover:bg-cover group-hover:bg-center transition-all duration-300"></div>
+          <div className="absolute inset-0 bg-none group-hover:bg-[url('/apple.webp')] group-hover:bg-cover group-hover:bg-center transition-all duration-300"></div>
           <h2 className={`mb-3 text-2xl font-semibold relative z-10`}>
             App Store{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -52,10 +67,11 @@ export default function Home() {
         </a>
 
         <a
+          target="_blank"
           href="https://github.com/TowardsIkhlaas/simply_qibla"
           className="group relative rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-100 hover:bg-cover hover:bg-center relative overflow-hidden"
         >
-          <div className="absolute inset-0 bg-none group-hover:bg-[url('https://simplyqibla.towardsikhlaas.com/star.jpg')] group-hover:bg-cover group-hover:bg-center transition-all duration-300"></div>
+          <div className="absolute inset-0 bg-none group-hover:bg-[url('/star.webp')] group-hover:bg-cover group-hover:bg-center transition-all duration-300"></div>
           <h2 className={`mb-3 text-2xl font-semibold relative z-10`}>
             Star Us{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
